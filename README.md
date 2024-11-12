@@ -1,4 +1,4 @@
-# EvaalScore manual
+# EvaalScore Manual
 
 
 ## Preparing a working directory for EvaalScore
