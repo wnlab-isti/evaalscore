@@ -1,5 +1,8 @@
-# EvaalScore Manual
+# EvaalScore manual
 
+2024-11-8
+
+This manual is a work in progress.
 
 ## Preparing a working directory for EvaalScore
 
@@ -32,8 +35,7 @@ Once you have loaded the image into the Qgis georeferencer and having georeferen
 
 ### Preparing the corners file and shrinking the final map images
 
-Use create_corners to create an `image.corners` for each `image.png`, which creates an `image.corners` file with the lon,lat coordinate of the four corners of the image.  After this is done, the `image.png`points `file is no more needed, and you can shrink the images to make thin lines more visible.`
-
+Use create_corners to create an `image.corners` for each `image.png`, which creates an `image.corners` file with the lon,lat coordinate of the four corners of the image.  After this is done, the `image.png`points` file is no more needed, and you can shrink the images to make thin lines more visible.
 
 Shring all the maps using `shrink-png` so that lines are more clearly visible in the small images that EvaalScore uses for its output: `path.pdf`, `score.pdf` and `path.ogg` all have maps as background on which both the reference points and the estimated path are drawn.
 
